@@ -10,6 +10,7 @@ r.set('ip_address', '0.0.0.0');
 
 r.lpush('list1', 'A')
 r.lpush('list1', 'B')
+
 r.lpush('list1', 'C')
 
 # print ("list : ", r.lrange('list1', 0, -1));
